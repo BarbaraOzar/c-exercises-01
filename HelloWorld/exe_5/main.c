@@ -13,6 +13,7 @@ int i, prime;
 int main(void)
 {
 	DDRA = 0xff;
+	DDRB = 0x00;
 	PORTA = 0xff;
 	
     for(int n = 2; n <= 100; n++) 
@@ -32,6 +33,9 @@ int main(void)
 			_delay_ms(1000);
 			PORTA = 0xff;
 			_delay_ms(1000);
+			
+			while(PINB == 0xff)			// wait for a button press
+			{}
 		}
 	}
 	PORTA = 0xff;
