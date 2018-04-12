@@ -17,7 +17,7 @@ int main(void)
 	PORTA = 0xff;
 	
     for(int n = 2; n <= 100; n++) 
-	{	
+	{	z 
 		prime = 1;
 		i = 2;
 		
