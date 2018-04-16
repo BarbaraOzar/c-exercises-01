@@ -1,5 +1,5 @@
 /*
- * GccApplication1.c
+ * exe_4.c
  *
  * Created: 2018-04-10 10:51:48
  * Author : Barbara

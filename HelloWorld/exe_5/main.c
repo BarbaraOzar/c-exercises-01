@@ -8,7 +8,7 @@
 #define F_CPU 10000000L
 #include <avr/io.h>
 #include <util/delay.h>
-int i, prime;
+int i, n, prime;
 
 int main(void)
 {
@@ -16,8 +16,8 @@ int main(void)
 	DDRB = 0x00;
 	PORTA = 0xff;
 	
-    for(int n = 2; n <= 100; n++) 
-	{	z 
+    for(n = 2; n <= 100; n++) 
+	{	 
 		prime = 1;
 		i = 2;
 		
