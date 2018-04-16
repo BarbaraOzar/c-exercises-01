@@ -95,10 +95,8 @@ void get_input(int *started, int *time, int *count_to)
 	{
 		*count_to += 50;		
 	}
-	else if(PINB == (0xff - 0xc0))
+	else if(PINB == (0xff - 0xc0)) // timer immediately starts to count down again
 		reset(time);
-	else
-		return;
 }
 
 void output(int value)
