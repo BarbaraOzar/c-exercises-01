@@ -11,6 +11,8 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "exe_7", "exe_7\exe_7.cproj"
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "exe_4", "exe_4\exe_4.cproj", "{BBF8F3EA-9904-419B-AD87-68AB1556165B}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "hello_world", "hello_world\hello_world.cproj", "{9673FFE2-36DA-4843-B484-EBCFFF0013C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -33,6 +35,10 @@ Global
 		{BBF8F3EA-9904-419B-AD87-68AB1556165B}.Debug|AVR.Build.0 = Debug|AVR
 		{BBF8F3EA-9904-419B-AD87-68AB1556165B}.Release|AVR.ActiveCfg = Release|AVR
 		{BBF8F3EA-9904-419B-AD87-68AB1556165B}.Release|AVR.Build.0 = Release|AVR
+		{9673FFE2-36DA-4843-B484-EBCFFF0013C5}.Debug|AVR.ActiveCfg = Debug|AVR
+		{9673FFE2-36DA-4843-B484-EBCFFF0013C5}.Debug|AVR.Build.0 = Debug|AVR
+		{9673FFE2-36DA-4843-B484-EBCFFF0013C5}.Release|AVR.ActiveCfg = Release|AVR
+		{9673FFE2-36DA-4843-B484-EBCFFF0013C5}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
